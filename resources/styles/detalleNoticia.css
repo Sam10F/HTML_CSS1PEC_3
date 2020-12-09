@@ -95,4 +95,14 @@ body {
         grid-template-columns: 1fr;
         row-gap: 40px;
     }
+
+    #img-container {
+        height: 260px;
+    }
+}
+
+@media (max-width: 599px) {
+    .texto-img{
+        width: 100%;
+    }
 }

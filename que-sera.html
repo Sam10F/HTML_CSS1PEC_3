@@ -11,9 +11,12 @@
 
 <body>
     <header>
-        <a href="/index.html" title="Link a la página de inicio">
-            <img src="/resources/images/sk-logo.png" alt="Logo con la cara de Stephen King" />
-        </a>
+        <div>
+            <span class="title">Stephen King</span>
+            <a href="/index.html" title="Link a la página de inicio">
+                <img src="/resources/images/SK_Logo.svg" alt="Logo con la cara de Stephen King" />
+            </a>
+        </div>
         <ul>
             <li>
                 <a href="/categoriaObras.html" title="Link a la página de categoria sobre las obras de Stephen King">
@@ -30,7 +33,11 @@
     <article id="noticia-container">
         <section id="noticia">
             <div id="img-container">
-                <img src="/resources/images/noticia2.jpg" alt="Portada de la noticia" />
+                <img src="/resources/images/noticia2.jpg" 
+                srcset="/resources/images/noticia2.jpg 1920w, 
+                        /resources/images/noticia2-s.jpg 640w" 
+                sizes="(max-width: 769px) 640px"
+                alt="Portada de la noticia" />
             </div>
             <div id="contenido-noticia">
                 <h3>Stephen King habla sobre la nueva adaptación de IT.</h3>
@@ -110,42 +117,15 @@
         </div>
     </article>
     <footer>
-        <ul id="footer-secciones">
-            <li>
-                <p>Categorías</p>
-                <ul>
-                    <li>
-                        <a href="/categoriaObras.html"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Sus obras
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/categoriaNoticias.html"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Noticias
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <p>Derechos de uso</p>
-                <ul>
-                    <li>
-                        <a href="https://icons8.com/icon/44624/stephen-king"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            icons8.com
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://es.wikipedia.org/wiki/Pennywise,_el_payaso"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Contenido en Wikipedia
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <span class="title">Stephen King</span>
+        <div class="clip-path-container">
+            <img src="/resources/images/sk1.png" srcset="/resources/images/sk1-small.png 599w"
+                alt="Stephen King agradecido" />
+            <div id="tfc-bocadillo">
+                <img src="/resources/images/thanksForCommingWhite.png"
+                    srcset="/resources/images/thanksForCommingWhite-s.png 599w" alt="Gracias por venir">
+            </div>
+        </div>
     </footer>
 </body>
 

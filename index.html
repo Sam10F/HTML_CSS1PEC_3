@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML_CSS_1PEC1</title>
 
+    <link rel="icon" href="/resources/images/SK_Logo.svg">
+
     <link rel="stylesheet" href="/resources/styles/main.css" />
     <link rel="stylesheet" href="/resources/styles/homepage.css" />
+    
 </head>
 
 <body>
     <header>
-        <a href="/index.html" title="Link a la página de inicio">
-            <img src="/resources/images/sk-logo.png" alt="Logo con la cara de Stephen King" />
-        </a>
+        <div>
+            <span class="title">Stephen King</span>
+            <a href="/index.html" title="Link a la página de inicio">
+                <img src="/resources/images/SK_Logo.svg" alt="Logo con la cara de Stephen King" />
+            </a>
+        </div>
         <ul>
             <li>
                 <a href="categoriaObras.html" title="Link a la página de categoria sobre las obras de Stephen King">
@@ -39,8 +45,11 @@
             <p>Aquí encontrarás la bibliografia más reciente de Stephen King</p>
         </section>
         <section id="libros-container">
-            <div class="card-libro">
+            <div class="card-libro" data-order_to_display="2">
                 <div class="img-container">
+                    <div class="background-container">
+                        <img src="resources/images/libro1-lsm.jpg" />
+                    </div>
                     <img src="resources/images/libro1-lsm.jpg" />
                 </div>
                 <div class="content-container">
@@ -56,8 +65,11 @@
                 </div>
             </div>
 
-            <div class="card-libro">
+            <div class="card-libro" data-order_to_display="1">
                 <div class="img-container">
+                    <div class="background-container">
+                        <img src="/resources/images/libro2-llm.jpg" />
+                    </div>
                     <img src="/resources/images/libro2-llm.jpg" />
                 </div>
                 <div class="content-container">
@@ -73,8 +85,11 @@
                 </div>
             </div>
 
-            <div class="card-libro">
+            <div class="card-libro" data-order_to_display="3">
                 <div class="img-container">
+                    <div class="background-container">
+                        <img src="/resources/images/libro3-ei.jpg" />
+                    </div>
                     <img src="/resources/images/libro3-ei.jpg" />
                 </div>
                 <div class="content-container">
@@ -91,8 +106,11 @@
                 </div>
             </div>
 
-            <div class="card-libro">
+            <div class="card-libro" data-order_to_display="4">
                 <div class="img-container">
+                    <div class="background-container">
+                        <img src="resources/images/libro4-c.jpg" />
+                    </div>
                     <img src="resources/images/libro4-c.jpg" />
                 </div>
                 <div class="content-container">
@@ -119,19 +137,19 @@
         </section>
         <div id="cifras-container">
             <div>
-                <p>75</p>
+                <p class="number" data-plus="1" data-target="75">0</p>
                 <p>Libros publicados</p>
             </div>
             <div>
-                <p>350.000.000</p>
+                <p class="number" data-plus="100" data-target="350000">0</p>
                 <p>Libros vendidos</p>
             </div>
             <div>
-                <p>93</p>
+                <p class="number" data-plus="1" data-target="93">0</p>
                 <p>Paises alcanzados</p>
             </div>
             <div>
-                <p>400.000.000</p>
+                <p class="number" data-plus="1000" data-target="4000000">0</p>
                 <p>Fortuna neta</p>
             </div>
         </div>
@@ -148,11 +166,12 @@
                 </div>
                 <div class="info-container">
                     <h4>El rey del horror</h4>
-                    <p class="resumen">El escritor Stephen King cumple 70 años en un momento en el que vuelve a estar de
-                        máxima
-                        actualidad.</p>
-                    <a href="el-rey-del-horror.html" title="link a la noticia">Más
-                        información</a>
+                    <p class="resumen">King cumple 70 años en un momento en el que vuelve a estar de
+                        máximaactualidad.</p>
+                    <div class="link-container">
+                        <a href="el-rey-del-horror.html" title="link a la noticia">Más
+                            información</a>
+                    </div>
                 </div>
                 <div class="social-link-container">
                     <a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank">
@@ -171,10 +190,12 @@
                     <img src="/resources/images/noticia2.jpg" alt="Imagen que acompaña a la noticia">
                 </div>
                 <div class="info-container">
-                    <h4>Stephen King habla sobre la nueva adaptación de IT.</h4>
+                    <h4>Stephen sobre IT.</h4>
                     <p class="resumen">Se estrena en cines la película basada en el libro más mítico del rey del terror.
                     </p>
-                    <a href="que-sera.html" title="link a la noticia">Más información</a>
+                    <div class="link-container">
+                        <a href="que-sera.html" title="link a la noticia">Más información</a>
+                    </div>
                 </div>
                 <div class="social-link-container">
                     <a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank">
@@ -195,8 +216,10 @@
                 <div class="info-container">
                     <h4>Decenas de adaptaciones</h4>
                     <p class="resumen">El escritor estadounidense ofrece pinceladas de su vida...</p>
-                    <a href="decenas-adaptaciones.html" title="link a la noticia">Más
-                        información</a>
+                    <div class="link-container">
+                        <a href="decenas-adaptaciones.html" title="link a la noticia">Más
+                            información</a>
+                    </div>
                 </div>
                 <div class="social-link-container">
                     <a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank">
@@ -214,37 +237,17 @@
             Ver más noticias
         </a>
     </article>
+    <script src="/resources/js/hompageAnimations.js"></script>
 </body>
 <footer>
-    <ul id="footer-secciones">
-        <li>
-            <p>Categorías</p>
-            <ul>
-                <li>
-                    <a href="categoriaObras.html" title="Link a la página de categoria sobre las obras de Stephen King">
-                        Sus obras
-                    </a>
-                </li>
-                <li>
-                    <a href="categoriaNoticias.html"
-                        title="Link a la página de categoria sobre las obras de Stephen King">
-                        Noticias
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <p>Derechos de uso</p>
-            <ul>
-                <li>
-                    <a href="https://icons8.com/icon/44624/stephen-king"
-                        title="Link a la página de categoria sobre las obras de Stephen King">
-                        icons8.com
-                    </a>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <span class="title">Stephen King</span>
+    <div class="clip-path-container">
+        <img src="/resources/images/sk1.png" srcset="/resources/images/sk1-small.png 599w" alt="Stephen King agradecido" />
+        <div id="tfc-bocadillo">
+            <img src="/resources/images/thanksForCommingWhite.png"
+            srcset="/resources/images/thanksForCommingWhite-s.png 599w" alt="Gracias por venir">
+        </div>
+    </div>
 </footer>
 </body>
 

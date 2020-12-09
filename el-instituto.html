@@ -10,9 +10,12 @@
 
 <body>
     <header>
-        <a href="/index.html" title="Link a la página de inicio">
-            <img src="/resources/images/sk-logo.png" alt="Logo con la cara de Stephen King" />
-        </a>
+        <div>
+            <span class="title">Stephen King</span>
+            <a href="/index.html" title="Link a la página de inicio">
+                <img src="/resources/images/SK_Logo.svg" alt="Logo con la cara de Stephen King" />
+            </a>
+        </div>
         <ul>
             <li>
                 <a href="/categoriaObras.html" title="Link a la página de categoria sobre las obras de Stephen King">
@@ -29,6 +32,9 @@
     <article id="obraContainer">
         <h2>El instituto</h2>
         <div id="portada-container">
+            <div class="background-container">
+                <img src="/resources/images/libro3-ei.jpg" alt="Portada del libro El instituto, De Stephen King">
+            </div>
             <img src="/resources/images/libro3-ei.jpg" alt="Portada del libro El instituto, De Stephen King">
         </div>
 
@@ -97,42 +103,15 @@
         </section>
     </article>
     <footer>
-        <ul id="footer-secciones">
-            <li>
-                <p>Categorías</p>
-                <ul>
-                    <li>
-                        <a href="/categoriaObras.html"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Sus obras
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/categoriaNoticias.html"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Noticias
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <p>Derechos de uso</p>
-                <ul>
-                    <li>
-                        <a href="https://icons8.com/icon/44624/stephen-king"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            icons8.com
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://es.wikipedia.org/wiki/El_instituto"
-                            title="Link a la página de categoria sobre las obras de Stephen King">
-                            Contenido en Wikipedia
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <span class="title">Stephen King</span>
+        <div class="clip-path-container">
+            <img src="/resources/images/sk1.png" srcset="/resources/images/sk1-small.png 599w"
+                alt="Stephen King agradecido" />
+            <div id="tfc-bocadillo">
+                <img src="/resources/images/thanksForCommingWhite.png"
+                    srcset="/resources/images/thanksForCommingWhite-s.png 599w" alt="Gracias por venir">
+            </div>
+        </div>
     </footer>
 </body>
 

@@ -99,6 +99,10 @@ body {
     margin-top: 0;
 }
 
+.background-container{
+    display: none;
+}
+
 /*ENLACES DE COMPRA*/
 #obraContainer ul a span {
     display: block;
@@ -171,6 +175,7 @@ body {
         width: 30%;
         height: 150px;
         padding: 0 40px;
+        max-width: 230px;
     }
 
     #otros-libros .libro-min:not(:last-child) {
@@ -209,15 +214,18 @@ body {
     #obraContainer #portada-container {
         grid-column: 1;
         grid-row: 2;
-        padding: 15px;
+        padding: 0;
         height: 320px;
+        overflow: hidden;
     }
 
-    #obraContainer img {
+    #obraContainer #portada-container > img {
         width: auto;
         height: 100%;
         margin: 0 auto;
         display: block;
+        position: relative;
+        z-index: 1;
     }
 
     #portada-container::after {
@@ -241,6 +249,10 @@ body {
 
     #pelicula {
         grid-column: 1;
+    }
+
+    .background-container{
+        display: block;
     }
 
     /*OTROS LIBROS*/
