@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -33,13 +33,12 @@
             </li>
         </ul>
     </header>
-    <article id="welcome">
+    <div id="welcome">
         <section id="main-text">
-            <p>Una web sobre...</p>
             <h1>Stephen King</h1>
         </section>
-    </article>
-    <article id="ultimos-libros">
+    </div>
+    <div id="ultimos-libros">
         <section class="article-introduction">
             <h2>SUS ÚLTIMOS LIBROS</h2>
             <p>Aquí encontrarás la bibliografia más reciente de Stephen King</p>
@@ -130,8 +129,8 @@
         <a href="categoriaObras.html" title="Link a un listado de libros de Stephen King">
             Ver más libros
         </a>
-    </article>
-    <article id="cifras">
+    </div>
+    <div id="cifras">
         <section class="article-introduction">
             <h2>CIFRAS</h2>
         </section>
@@ -153,8 +152,8 @@
                 <p>Fortuna neta</p>
             </div>
         </div>
-    </article>
-    <article id="ultimas-noticias">
+    </div>
+    <div id="ultimas-noticias">
         <section class="article-introduction">
             <h2>Ultimas noticias</h2>
             <p>Sigue la actualidad de su vida. ¡No te pierdas ni un detalle!</p>
@@ -236,19 +235,19 @@
         <a href="categoriaNoticias.html" title="Link a un listado de libros de Stephen King">
             Ver más noticias
         </a>
-    </article>
-    <script src="/resources/js/hompageAnimations.js"></script>
-</body>
-<footer>
-    <span class="title">Stephen King</span>
-    <div class="clip-path-container">
-        <img src="/resources/images/sk1.png" srcset="/resources/images/sk1-small.png 599w" alt="Stephen King agradecido" />
-        <div id="tfc-bocadillo">
-            <img src="/resources/images/thanksForCommingWhite.png"
-            srcset="/resources/images/thanksForCommingWhite-s.png 599w" alt="Gracias por venir">
-        </div>
     </div>
-</footer>
+    <script src="/resources/js/hompageAnimations.js"></script>
+
+    <footer>
+        <span class="title">Stephen King</span>
+        <div class="clip-path-container">
+            <img src="/resources/images/sk1.png" srcset="/resources/images/sk1-small.png 599w" sizes="(max-width: 769px) 599px" alt="Stephen King agradecido" />
+            <div id="tfc-bocadillo">
+                <img src="/resources/images/thanksForCommingWhite.png"
+                srcset="/resources/images/thanksForCommingWhite-s.png 599w" sizes="(max-width: 769px) 599px" alt="Gracias por venir">
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

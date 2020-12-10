@@ -36,7 +36,7 @@ body {
     font-family: "Special Elite", cursive;
 }
 
-article {
+body > div {
     padding: 50px var(--main-padding);
     position: relative;
     z-index: 1;
