@@ -2,7 +2,7 @@
 #welcome {
     height: 100vh;
     width: 100%;
-    background-image: url("/resources/images/Stephenking_house.jpg");
+    background-image: url("/resources/images/Stephenking_house.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -112,7 +112,7 @@ div.card-libro a {
 /*CIFRAS*/
 #cifras {
     position: relative;
-    background-image: url("/resources/images/typewritter.jpg");
+    background-image: url("/resources/images/typewritter.webp");
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,7 +322,7 @@ div.card-libro a {
 
 @media (max-width: 799px) {
     #welcome {
-        background-image: url("/resources/images/Stephenking_house-s.jpg");
+        background-image: url("/resources/images/Stephenking_house-s.webp");
     }
 }
 

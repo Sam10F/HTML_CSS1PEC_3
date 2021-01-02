@@ -5,7 +5,7 @@ const obrasContainer = document.getElementById("obrasContainer");
 
 let libros = [
     {
-        imagen: require("/resources/images/libro1-lsm.jpg"),
+        imagen: require("/resources/images/libro1-lsm.webp"),
         titulo: "La tienda",
         editorial: "DeTapaDura",
         precio: "19.95€",
@@ -14,7 +14,7 @@ let libros = [
     },
 
     {
-        imagen: require("/resources/images/libro2-llm.jpg"),
+        imagen: require("/resources/images/libro2-llm.webp"),
         titulo: "La larga Marcha",
         editorial: "DEBOLSILLO",
         precio: "9.95€",
@@ -22,7 +22,7 @@ let libros = [
             "una sociedad ultraconservadora que ha llevado al paroxismo sus rasgos más perversos, dominada por un estado policial. Una inquietante novela futurista donde la realidad supera a la fantasía más terrorífica. ",
     },
     {
-        imagen: require("/resources/images/libro3-ei.jpg"),
+        imagen: require("/resources/images/libro3-ei.webp"),
         titulo: "El Instituto",
         editorial: "DEBOLSILLO",
         precio: "14.95€",
@@ -30,7 +30,7 @@ let libros = [
             "En mitad de la noche en un barrio tranquilo de Minneapolis raptan a Luke Ellis, de doce años, tras haber asesinado a sus padres. Una operación que dura menos de dos minutos. ",
     },
     {
-        imagen: require("/resources/images/libro4-c.jpg"),
+        imagen: require("/resources/images/libro4-c.webp"),
         titulo: "Cujo",
         editorial: "Planeta de libros",
         precio: "9.45€",
@@ -38,7 +38,7 @@ let libros = [
             "Durante toda su vida Cujo fue un buen perro, un San Bernardo grandote, pacífico, juguetón y amante de los niños. Realmente se trataba de un perro bueno y feliz. Feliz hasta que le sucedió algo, y el cerebro de perro de Cujo se cubrió de una de esas oscuridades que se alimentan de sangre.",
     },
     {
-        imagen: require("/resources/images/libro5-sl.jpg"),
+        imagen: require("/resources/images/libro5-sl.webp"),
         titulo: "El misterio de Salems Lot",
         editorial: "Planeta de libros",
         precio: "9.45€",
