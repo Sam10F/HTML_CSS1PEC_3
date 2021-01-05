@@ -22,7 +22,8 @@
     "homepage": "https://github.com/Sam10F/HTML_CSS1PEC_1#readme",
     "dependencies": {
         "postcss-cli": "^8.2.0",
-        "postcss-custom-selectors": "^5.1.2"
+        "postcss-custom-selectors": "^5.1.2",
+        "web-vitals": "^1.0.1"
     },
     "devDependencies": {
         "autoprefixer": "^9.8.6",
