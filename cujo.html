@@ -117,9 +117,13 @@
 
         <section id="pelicula">
             <p class="section-title">Tiene pelicula:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vFUD8b-BZCc" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="pelicula-container cujo">
+                <img id="playButton" src="/resources/images/play-video.svg" alt="Boton de reproducir video"/>
+                <iframe id="videoIframe" width="560" height="315" src="" data-trailer="https://www.youtube.com/embed/vFUD8b-BZCc"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <script src="/resources/js/videosFunctionality.js"></script>
         </section>
     </div>
     <footer>
