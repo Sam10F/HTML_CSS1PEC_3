@@ -111,6 +111,21 @@ header ul {
     top: 36px;
 }
 
+/*YOUTUBE VIDEOS*/
+#pelicula .pelicula-container,
+#noticia figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#playButton{
+    height: 60px;
+    position: absolute;
+}
+
 /*FOOTER*/
 footer {
     display: flex;

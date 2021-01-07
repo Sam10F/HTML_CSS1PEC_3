@@ -92,6 +92,19 @@ body {
     width: 100%;
 }
 
+/*YOUTUBE VIDEOS*/
+figure.cementerio_animales{
+    background-image: url("/resources/images/cementerio_placeholder.jpg");
+}
+
+figure.viaje{
+    background-image: url("/resources/images/viaje_placeholder.jpg");
+}
+
+figure.it{
+    background-image: url("/resources/images/it_placeholder.jpg");
+}
+
 @media (max-width: 768px) {
     #noticia-container {
         grid-template-columns: 1fr;

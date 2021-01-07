@@ -78,20 +78,12 @@ body {
     grid-row: 2 / 4;
 }
 
-#pelicula .pelicula-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-#pelicula .pelicula-container > img{
-    height: 60px;
-    position: absolute;
-}
-
 #pelicula .pelicula-container.cujo{
     background-image: url("/resources/images/cujo_placeholder.jpg");
+}
+
+#pelicula .pelicula-container.salems-lot{
+    background-image: url("/resources/images/salems_placeholder.jpg");
 }
 
 #pelicula,

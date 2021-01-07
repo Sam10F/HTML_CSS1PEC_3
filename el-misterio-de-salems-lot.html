@@ -40,7 +40,7 @@
         </div>
 
         <section id="enlaces-container">
-            <p class="section-title">Enlaces de compra</p>
+            <h3 class="section-title">Enlaces de compra</h3>
             <ul>
                 <li>
                     <a href="https://www.casadellibro.com/libro-el-misterio-de-salem-s-lot/9788497931021/943441"
@@ -102,7 +102,7 @@
             </p>
         </div>
         <section id="otros-libros">
-            <p class="section-title">Otros libros:</p>
+            <h3 class="section-title">Otros libros:</h3>
             <div id="libro-min-container">
                 <a href="la-larga-marcha.html" class="libro-min">
                     <img src="/resources/images/libro2-llm.webp" alt="Portada del libro La larga marcha">
@@ -116,10 +116,15 @@
             </div>
         </section>
         <section id="pelicula">
-            <p class="section-title">Tiene pelicula:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jsftWoHRCck" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <h3 class="section-title">Tiene pelicula:</h3>
+            <div class="pelicula-container salems-lot">
+                <img id="playButton" src="/resources/images/play-video.svg" alt="Boton de reproducir video" />
+                <iframe id="videoIframe" width="560" height="315" src='javascript:void(0)'
+                    data-trailer="https://www.youtube.com/embed/jsftWoHRCck"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <script src="/resources/js/videosFunctionality.js"></script>
         </section>
     </div>
     <footer>
